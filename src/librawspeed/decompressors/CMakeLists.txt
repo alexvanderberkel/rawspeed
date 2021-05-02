@@ -1,4 +1,6 @@
 FILE(GLOB SOURCES
+  "AbstractBmffDecompressor.cpp"
+  "AbstractBmffDecompressor.h"
   "AbstractDecompressor.h"
   "AbstractDngDecompressor.cpp"
   "AbstractDngDecompressor.h"
@@ -9,6 +11,8 @@ FILE(GLOB SOURCES
   "BinaryHuffmanTree.h"
   "Cr2Decompressor.cpp"
   "Cr2Decompressor.h"
+  "Cr3Decompressor.cpp"
+  "Cr3Decompressor.h"
   "CrwDecompressor.cpp"
   "CrwDecompressor.h"
   "DeflateDecompressor.cpp"
